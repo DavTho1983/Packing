@@ -105,7 +105,7 @@ export default function Boxes({containerInnerWidth, containerInnerHeight}) {
                     top: block.fit.y,
                     left: block.fit.x,
                     borderWidth: borderWidth,
-                    box: <Box width={w} height={h} backgroundColour={getColor()}
+                    box: <Box width={w} height={h} backgroundColour={getColor()} boxText="AMMONITE"
                     />
                 }
             )
